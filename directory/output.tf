@@ -6,6 +6,4 @@ output "instance_id"{
     value = aws_instance.example_new.id
     description = "the instance id of the web server"
 }
-output "security_group" {
-  value = aws_security_group.sg_8080.id
-}
+
